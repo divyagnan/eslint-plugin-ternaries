@@ -1,4 +1,4 @@
-# eslint-plugin-ternaries [![Build Status](https://travis-ci.org/divyagnan/eslint-plugin-ternaries.svg?branch=master)](https://travis-ci.org/divyagnan/eslint-plugin-ternaries)
+# eslint-plugin-ternaries [![Build Status](https://travis-ci.org/divyagnan/eslint-plugin-ternaries.svg?branch=master)](https://travis-ci.org/divyagnan/eslint-plugin-ternaries) [![npm version](https://badge.fury.io/js/eslint-plugin-ternaries.svg)](https://badge.fury.io/js/eslint-plugin-ternaries)
 
 Eslint rules concerning ternaries
 
