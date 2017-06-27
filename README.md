@@ -36,14 +36,14 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "ternaries/rule-name": 2
+        "ternaries/no-null-ternary": 2
     }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
+* [no-null-ternary](docs/no-null-ternary) - Disallows ternaries with null as either the consequent or alternate condition.
 
 
 
