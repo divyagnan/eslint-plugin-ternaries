@@ -43,7 +43,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* [no-null-ternary](docs/no-null-ternary) - Disallows ternaries with null as either the consequent or alternate condition.
+* [no-null-ternary](docs/rules/no-null-ternary.md) - Disallows ternaries with null as either the consequent or alternate condition.
 
 
 
