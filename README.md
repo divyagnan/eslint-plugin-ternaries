@@ -22,10 +22,10 @@ $ npm install eslint-plugin-ternaries --save-dev
 
 Add `ternaries` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
-```json
+```diff
 {
     "plugins": [
-        "ternaries"
++        "ternaries"
     ]
 }
 ```
@@ -33,10 +33,11 @@ Add `ternaries` to the plugins section of your `.eslintrc` configuration file. Y
 
 Then configure the rules you want to use under the rules section.
 
-```json
+```diff
 {
     "rules": {
-        "ternaries/no-null-ternary": 2
++        "ternaries/no-null-ternary": 2,
++        "ternaries/no-empty-ternary": 2
     }
 }
 ```
@@ -44,8 +45,4 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 * [no-null-ternary](docs/rules/no-null-ternary.md) - Disallows ternaries with null as either the consequent or alternate condition.
-
-
-
-
-
+* [no-empty-ternary](docs/rules/no-empty-ternary.md) - Disallows ternaries that have &#39;&#39; or &#34;&#34; as either condition.

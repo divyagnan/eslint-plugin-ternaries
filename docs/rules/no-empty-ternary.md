@@ -1,21 +1,21 @@
-# Disallows ternaries with null as either the consequent or alternate condition. (no-null-ternary)
+# Disallows ternaries that have &#39;&#39; or &#34;&#34; as either condition (no-empty-ternary)
 
 This rule aims to cut down on ternary usage when it is not necessary. Instead use an `if` statement or use short-circuit (`&&`) evaluation
 
 ## Rule Details
 
-This rule raises when either the consequent or alternate condition in a ternary is null.
+This rule raises when either the consequent or alternate condition in a ternary is empty (ex '' or "").
 
 Examples of **incorrect** code for this rule:
 
 ```js
-// The consequent condition is null
-someCondition ? null : value
+// The consequent condition is empty
+someCondition ? '' : value
 ```
 
 ```js
-// The alternate condition is null
-someCondition ? value : null
+// The alternate condition is empty
+someCondition ? value : ''
 ```
 
 Examples of **correct** code for this rule:
